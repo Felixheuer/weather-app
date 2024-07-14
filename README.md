@@ -14,9 +14,9 @@ API: Open-Meteo für die Wetterdaten
 Weitere Informationen:
 
 Dieses Projekt wurde im Rahmen eines Mini Hackathons entwickelt und verwendet die Open-Meteo API für die Wetterdaten. Es ist als Beispiel für die Nutzung von APIs und die Entwicklung einer einfachen Web-Anwendung gedacht.
+
 Installation und Nutzung:
 
 Klone das Repository auf deinen lokalen Rechner.
 Stelle sicher, dass ein Webserver mit PHP-Unterstützung (z.B. Apache) läuft.
-Passe die Konfigurationsdatei für die API-Schlüssel an, falls notwendig.
 Öffne die index.html Datei im Browser, um die Wetter-App zu verwenden.
