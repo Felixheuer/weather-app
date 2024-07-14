@@ -1,4 +1,4 @@
-# weather-app
+# Wetter-API-WebApp
 
 Funktionen:
 
