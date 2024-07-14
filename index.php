@@ -6,9 +6,7 @@
     <title>Wetter App</title>
     <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Eigenes CSS für Anpassungen -->
 <style>
-    /* Allgemeine Stile */
 body {
     background-color: #f8f9fa;
     font-family: 'Arial', sans-serif;
@@ -26,7 +24,7 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #007bff; /* Blaue Farbe, passend zu Bootstrap */
+    color: #007bff; 
 }
 
 .form-group {
@@ -51,7 +49,6 @@ h1 {
     color: #721c24;
 }
 
-/* Kartenstil für Wetterinformationen */
 .card {
     margin-top: 20px;
     border: none;
@@ -78,7 +75,6 @@ hr {
     margin-bottom: 15px;
 }
 
-/* Emojis und Wettericons */
 .weather-emoji {
     font-size: 100px;
     height: 120px;
@@ -88,13 +84,11 @@ hr {
     margin-bottom: 15px;
 }
 
-/* Kleidungsempfehlungen */
 .clothing-recommendation {
     font-style: italic;
     color: #6c757d;
 }
 
-/* Fakten über das Wetter */
 .weather-fact {
     font-size: 14px;
     margin-top: 15px;
@@ -117,7 +111,6 @@ hr {
         <div id="wetterInfo" class="mt-3"></div>
     </div>
 
-    <!-- Bootstrap JS und jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
@@ -136,7 +129,6 @@ hr {
                                 var latitude = data.latitude;
                                 var longitude = data.longitude;
                                 
-                                // Abrufen der Wetterdaten basierend auf den Koordinaten
                                 $.ajax({
                                     url: 'get_weather.php',
                                     method: 'POST',
